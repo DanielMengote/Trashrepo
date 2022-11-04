@@ -1,0 +1,407 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.hero {
+    background-color: #858585;
+    height: 100vh;
+    width: 100%;
+    background-image: url(Danielbg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 15px;
+    
+}
+
+.logo {
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+
+span {
+    color: rgb(0, 128, 0);
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 9px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: .4s;
+}
+nav ul li a:hover{
+    color: green;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.Button {
+    background-color:  #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    transition: .4s;
+    color: black;
+    border: solid green 2px;
+}
+
+.Button:hover {
+    background-color: green;
+    left: 8%;
+    color: white;
+    border: white solid 2px;
+    transform: translateY(-50%);
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+.content {
+    
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+}    
+
+h3{
+    color: rgb(157, 157, 157);
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+h4 {
+    color: rgb(157, 157, 157);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newslatter form{
+   
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    margin-top: 15px;
+}
+
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: solid 2px rgb(0, 126, 11);
+    border-radius: 30px;
+}
+
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    box-shadow:  0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+
+.main img {
+    height: 500px;
+}
+
+.about .main img{
+    border-radius: 30px;
+    padding-left: 10px;
+    margin-left: 10px;
+    
+}
+
+
+.about {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    padding: 100px 0px;
+}
+.main{
+   background-color: rgb(69, 68, 68);
+   border-radius: 30px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-left: 30px;
+}
+
+.about-text {
+    width: 650px;
+    margin-left: 45px;
+    padding: 20px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.about-text h2 {
+    color: pink;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    font-size: 22px;
+    color: pink;
+}
+
+.about-text p {
+    color: pink;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+} 
+
+.button {
+    background-color: green;
+    color: #e70d0d;
+}
+
+.service {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.title h2{
+    color: rgb(156, 156, 157);
+    font-size: 75px;
+    width: 1130px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+   
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+}
+
+
+.card {
+    background-color: rgb(156, 154, 154);
+   height: 365px;
+   width: 300px;
+   margin: 15px;
+   padding: 20px 35px;
+   border-radius: 20px;
+   position: relative;
+   overflow: hidden;
+   text-align: center;
+}
+
+h5 {
+    color: red;
+    font-size: 23px;
+    margin-bottom: 15px;
+    
+}
+
+.pra p{
+    color: pink;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+
+
+.card .button{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    transition: .4s;
+    margin-top: 300px;
+    
+}
+
+.button:hover {
+    background-color: rgb(249, 191, 84);
+    left: 8%;
+    transform: translateY(-50%);ound-color: rgb(246, 174, 107);
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+.contact-me {
+    background-color: lightseagreen;
+    height: 290px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-me p {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    transition: .4s;
+}
+
+
+
+
+
+
+.contact-me .button-two:hover {
+    background-color: rgb(249, 191, 84);
+    left: 8%;
+    transform: translateY(-50%);ound-color: rgb(246, 174, 107);
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: green;
+    margin-bottom: 20px;
+}
+footer p:nth-child(2){
+   font-size: 17px;
+   width: 500px;
+   text-align: center;
+   line-height: 26px;
+}
+footer p:last-child{
+    
+}
+
+.social a{
+   
+    
+}
+
+.social a img{
+    width: 45px;
+    height: 45px;
+    margin: 20px 12px;
+}
+
+.social a img:hover{
+    width: 50px;
+    height: 50px;
+    margin: 20px 12px;
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+.end {
+    position: absolute;
+    color: red;
+    bottom: 35px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
